@@ -114,26 +114,26 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#88846f"
+                "foreground": "#4E7F43"
             }
         },
         {
             "name": "行注释",
             "scope": "comment.line",
             "settings": {
-                "foreground": "#88846f"
+                "foreground": "#4E7F43"
             }
         },
         {
             "name": "块注释",
             "scope": "comment.block",
             "settings": {
-                "foreground": "#727F72"
+                "foreground": "#7a7a7a"
             }
         },
         {
             "name": "todo注释",
-            "scope": "comment.todo",
+            "scope": "comment.line.todo",
             "settings": {
                 "foreground": "#c4c71e"
             }
@@ -346,7 +346,7 @@
             "name":"type.interface",
             "scope": "entity.name.type.interface",
             "settings": {
-                "foreground": "#2fb651",
+                "foreground": "#ff7d7d",
                 "fontStyle": "underline"
             }
         },
