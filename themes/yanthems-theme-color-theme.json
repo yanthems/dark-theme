@@ -182,7 +182,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#fd85b1"
             }
         },
         {
@@ -235,14 +235,14 @@
             "name": "其他变量",
             "scope": "variable.other",
             "settings": {
-                "foreground": "#9876AA"
+                "foreground": "#3F9CD6" // #3F9CD6  #4ab6f8 #186cda
             }
         },
         {
             "name": "成员变量",
             "scope": "variable.other.member",
             "settings": {
-                "foreground": "#345f75"
+                "foreground": "#fd7878"
             }
         },
         {
@@ -256,7 +256,7 @@
             "name": "读写变量",
             "scope": "variable.other.readwrite",
             "settings": {
-                "foreground": "#ce656e"
+                "foreground": "#bcbcbc" 
             }
         },
         {
@@ -264,7 +264,7 @@
             "scope": "variable.other.constant",
             "settings": {
                 "foreground": "#9876AA",
-                "fontStyle": "italic underline"
+                "fontStyle": "italic"
             }
         },
         {
@@ -445,6 +445,14 @@
             }
         },
         {
+            "name": "模块",
+            "scope":"support.module",
+            "settings": {
+                "foreground": "#2377c6",
+                "fontStyle": ""
+            }
+        },
+        {
             "name": "库类型",
             "scope": "support.type, support.class",
             "settings": {
@@ -456,7 +464,8 @@
             "name": "Library variable",
             "scope": "support.other.variable",
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": "italic",
+                "foreground": "#df7e60"
             }
         },
         {
@@ -464,7 +473,7 @@
             "scope": "invalid",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F44747"
+                "foreground": "#ff1f1f"
             }
         },
         {
