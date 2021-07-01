@@ -257,6 +257,15 @@
             "scope": "variable.other.constant",
             "settings": {
                 "foreground": "#9876AA",
+                "fontStyle": "italic underline"
+            }
+        },
+        {
+            "name": "variable.other.predefined",
+            "scope":"variable.other.predefined",
+            "settings": {
+                "foreground": "#FFcccc",
+                "fontStyle": "bold"
             }
         },
         {
@@ -452,7 +461,14 @@
             }
         },
         {
-            "name": "meta.brackets",
+            "name": "()",
+            "scope":"meta.group",
+            "settings": {
+                "foreground": "#cccccc"
+            }
+        },
+        {
+            "name": "[]",
             "scope":"meta.brackets",
             "settings": {
                 "foreground": "#14eaf1",
