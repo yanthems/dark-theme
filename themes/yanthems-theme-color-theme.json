@@ -10,7 +10,7 @@
         "list.dropBackground": "#414339",
         "list.highlightForeground": "#f8f8f2",
         "button.background": "#75715E",
-        "editor.background": "#272822",
+        "editor.background": "#1a1a1a",
         "editor.foreground": "#f8f8f2",
         "selection.background": "#878b9180",
         "editor.selectionHighlightBackground": "#575b6180",
@@ -228,7 +228,7 @@
             "scope": "variable.parameter",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#8e8e8f"
+                "foreground": "#828282"
             }
         },
         {
@@ -242,14 +242,21 @@
             "name": "成员变量",
             "scope": "variable.other.member",
             "settings": {
-                "foreground": "#b8ddf0"
+                "foreground": "#345f75"
+            }
+        },
+        {
+            "name": "变量注释",
+            "scope":"variable.annotation",
+            "settings": {
+                "fontStyle": "italic"
             }
         },
         {
             "name": "读写变量",
             "scope": "variable.other.readwrite",
             "settings": {
-                "foreground": "#6c9bbb"
+                "foreground": "#ce656e"
             }
         },
         {
