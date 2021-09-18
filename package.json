@@ -1,7 +1,7 @@
 {
     "name": "yanthems",
-    "displayName": "yanthems-color",
-    "description": "yanthems color theme",
+    "displayName": "yanthems-dark-theme",
+    "description": "yanthems color theme for typescript",
     "publisher": "yanthems",
     "version": "0.0.1",
     "engines": {
@@ -18,5 +18,9 @@
                 "path": "./themes/yanthems-theme-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yanthems/dark-theme.git"
     }
 }
